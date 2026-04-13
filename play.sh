@@ -1,7 +1,6 @@
 #!/bin/bash
 
 BASE="https://raw.githubusercontent.com/thehorse-rgb/skully/main/frames"
-DELAY=0.03
 LOOPS=20
 FRAMES=100   # falls mehr existieren → erhöhen
 
@@ -13,7 +12,6 @@ for ((l=0; l<LOOPS; l++)); do
 
     printf "\033[H"
     curl -s "$BASE/$file"
-
-    sleep "$DELAY"
+    
   done
 done
