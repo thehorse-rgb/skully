@@ -1,7 +1,7 @@
 #!/bin/bash
 
 BASE="https://raw.githubusercontent.com/thehorse-rgb/skully/main/frames"
-DELAY=0.3
+DELAY=0.03
 LOOPS=20
 FRAMES=100   # falls mehr existieren → erhöhen
 
